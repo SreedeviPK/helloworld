@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "C:\Users\sreedevi.k03\Downloads\apache-maven-3.8.1-bin:$PATH"
+        PATH = "\Downloads\apache-maven-3.8.1-bin:$PATH"
     }
     stages {
         stage("clone code"){
