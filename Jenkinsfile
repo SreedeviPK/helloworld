@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools{
+        maven "MAVENHOME"
+    }
     environment {
         PATH = "/opt/apache-maven-3.6.3/bin:$PATH"
     }
