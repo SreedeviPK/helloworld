@@ -9,11 +9,11 @@ pipeline {
                git url: 'https://github.com/SreedeviPK/helloworld.git'
             }
         }
-        /*stage("build code"){
+        stage("build code"){
             steps{
               sh "mvn clean install"
             }
-        }
+        }/*
         stage("deploy"){
             steps{
               sshagent(['deploy_user']) {
